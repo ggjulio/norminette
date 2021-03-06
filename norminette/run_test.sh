@@ -1,6 +1,6 @@
 #!/bin/env sh
 
-set -e
+set -ex
 
 echo "Running lexer unit test:"
 python3 -m unittest discover tests/lexer/unit-tests/ "*.py"
