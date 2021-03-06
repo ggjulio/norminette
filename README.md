@@ -1,3 +1,4 @@
+test pr github action loop inf
 # norminette for 42 schools
 
 ## Install:
