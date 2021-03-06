@@ -2,6 +2,7 @@
 
 set -ex
 
+fail
 echo "Running lexer unit test:"
 python3 -m unittest discover tests/lexer/unit-tests/ "*.py"
 echo "Running lexer test on files:"
