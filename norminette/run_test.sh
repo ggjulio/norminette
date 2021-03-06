@@ -1,6 +1,6 @@
 #!/bin/env sh
 
-set -e
+# set -ex
 
 fail
 echo "Running lexer unit test:"
