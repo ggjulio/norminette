@@ -1,8 +1,7 @@
 #!/bin/env sh
 
-set -x
+set -ex
 
-cat file_dont_exist must_fail
 echo "Running lexer unit test:"
 python3 -m unittest discover tests/lexer/unit-tests/ "*.py"
 echo "Running lexer test on files:"
